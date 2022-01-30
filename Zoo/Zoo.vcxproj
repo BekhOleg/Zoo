@@ -139,11 +139,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Met.cpp" />
-    <ClCompile Include="Zoo.cpp" />
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Care.cpp" />
+    <ClCompile Include="Service.cpp" />
+    <ClCompile Include="Staff.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Tickets.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ALlstandartInclude.h" />
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="Care.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Header1.h" />
+    <ClInclude Include="Header2.h" />
+    <ClInclude Include="Service.h" />
+    <ClInclude Include="Staff.h" />
+    <ClInclude Include="Tickets.h" />
     <ClInclude Include="Zoo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
